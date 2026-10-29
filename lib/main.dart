@@ -106,6 +106,19 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
            Text('Hello World!'),
            Text('Bienvenue dans Flutter !'),
+           Container(
+  margin: EdgeInsets.all(20),
+  padding: EdgeInsets.all(16),
+  decoration: BoxDecoration(
+    color: Colors.green,
+    borderRadius: BorderRadius.circular(25),
+  ),
+  child: Text(
+    'Boîte stylisée avec Container',
+    style: TextStyle(color: Colors.white, fontSize: 18),
+  ),
+),
+Text('Bienvenue dans mon application Flutter !'),
           ],
         ),
       ),
