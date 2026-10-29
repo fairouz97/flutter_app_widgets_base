@@ -139,6 +139,12 @@ Row(
     Icon(Icons.favorite, color: Colors.red, size: 40),
   ],
 ),
+Column(
+  children: [
+    Text('Première ligne'),
+    Text('Deuxième ligne'),
+  ],
+),
           ],
         ),
       ),
