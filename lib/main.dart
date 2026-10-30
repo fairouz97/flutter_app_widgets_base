@@ -107,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
            Text('Hello World!'),
            Text('Bienvenue dans Flutter !'),
            Container(
-  margin: EdgeInsets.all(40),
+  margin: EdgeInsets.all(20),
   padding: EdgeInsets.all(30),
   decoration: BoxDecoration(
     color: Colors.orange,
@@ -120,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ),
 Text('Bienvenue dans mon application Flutter !'),
 Stack(
-  alignment: Alignment.center,
+  alignment: Alignment.bottomRight,
   children: [
     Container(width: 200, height: 200, color: Colors.blue[100]),
     Icon(Icons.star, size: 100, color: Colors.amber),
@@ -140,8 +140,8 @@ Row(
   ],
 ),
 Column(
-  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-  crossAxisAlignment: CrossAxisAlignment.start,
+  mainAxisAlignment: MainAxisAlignment.center,
+  crossAxisAlignment: CrossAxisAlignment.end,
   children: [
     Text('Titre principal', style: TextStyle(fontSize: 28)),
     SizedBox(height: 20),
